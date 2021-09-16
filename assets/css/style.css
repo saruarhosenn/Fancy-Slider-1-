@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.slider-section {
+	padding: 0px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.title h1 {
+	font-size: 38px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.slider {
+	border: 10px solid #DDDDDD;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+.slider img {
+	width: 100%;
+}
